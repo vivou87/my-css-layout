@@ -1,0 +1,199 @@
+body{
+    padding:0;
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+nav{
+
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+ul{
+    display:flex;
+    width:200px;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+.sec1 h1{
+    
+    font-size: x-large;
+width:300px;
+display:flex;
+justify-content: center;
+padding-left: 20px;
+}
+#p1{
+    width:550px;
+    padding-left: 20px;
+    display: flex ;
+    justify-content: center;
+
+}
+#p2{
+    padding:20px;
+}
+
+.sec1 img{
+    width:550px;
+    padding-right: 20px;
+}
+
+.sec1{
+    max-height:90% ;
+    max-width: 90%;
+    display: flex;
+
+}
+.pa1 , .pa2, .pa3{
+width:250px;height: 250px;
+flex-grow: 1;
+}
+.pa1{
+    background-color: blue;
+   
+    
+}
+.pa2{
+    background-color: rgb(0, 145, 255) ;
+   
+}
+.pa3{
+    background-color: rgb(0, 200, 255);
+
+}
+.pa1>h2{
+    text-align: center;
+}
+.pa1>p{
+    text-align: center;
+}
+.pa2>h2{
+    text-align: center;
+}
+.pa2>p{
+    text-align: center;
+}
+.pa3>h2{
+    text-align: center;
+}
+.pa3>p{
+    text-align: center;
+}
+.sec2{
+    display:flex;
+}
+.sec3>h2{
+    text-align: center;
+}
+.sec3>p{
+    padding-left:50px;
+   text-align: justify;
+}
+.sec3{
+    justify-content: center;
+}
+#pic2>img{
+    
+    width:500px;height: 550px;
+}
+.sec4>h2{
+    text-align: center;
+    font-size: larger;
+}
+.sec4>p{
+    height:550px ;
+    text-align: justify;
+}
+.sec4{
+    background-color: rgb(0, 174, 255);
+    display:flex;
+    flex-flow: column;
+
+}
+#pic2 .sec4{
+    flex-grow: 1;
+}
+.sec44{
+    margin:0;
+    height: 550px;width: 90%;
+    display: flex;
+}
+#spec{
+    text-align: center;
+}
+#ser{
+    text-align: center;
+}
+#para1{
+    width:400px;
+    text-align: center;
+}
+#para2{
+    width:400px;
+    text-align: center;
+}
+#para3{
+    width:400px;
+    text-align: center;
+}
+#para4{
+    width:400px;
+    text-align: center;
+}
+#para5{
+    width:400px;
+    text-align: center;
+}
+#para6{
+    width:400px;
+    text-align: center;
+}
+.sec5{
+    flex-wrap: wrap;
+}
+
+.sec5{
+    flex-grow: 1;
+
+    display:flex;
+    
+}
+.sec6{
+    padding-left: 20px;
+    
+    width:100%;
+    height: 90px;
+    background-color: aqua;
+    display:grid;
+    grid-template-columns:80% 20%;
+}
+.button{
+    grid-columns-start:2;
+    grid-columns-end:3;
+}
+.final{
+    background-color: rgb(5, 5, 81);
+    text-align: center;
+}
+.para7{
+    text-align: center;
+}
+.sec7{
+    width: 100%;
+    height: 250px;
+    justify-content: space-between;
+}
+
